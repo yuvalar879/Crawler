@@ -14,5 +14,6 @@ for file in File_Names:
     s = s.strip().replace('for', '').replace('Skyrim', '')
     print(s)
 
-# Another possibility
+
+# May be useful later
 x = soup.select(".file")
